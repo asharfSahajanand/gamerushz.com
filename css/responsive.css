@@ -361,22 +361,27 @@
     }
     
     .box_two {
-        padding: 0 5px;
-        width: 100%;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+        padding: 0 5px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     .box_two a {
         width: 100% !important;
-        margin: 8px 0 !important;
-        display: flex;
-        flex-direction: row;
-        max-width: 100%;
+        margin: 0 !important;
+        display: flex !important;
+        flex-direction: row !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     .box_two a .img {
-        width: 120px;
-        height: 120px;
-        flex-shrink: 0;
+        width: 80px !important;
+        height: 80px !important;
+        flex-shrink: 0 !important;
         position: relative !important;
         overflow: hidden !important;
         border-radius: 6px !important;
@@ -391,17 +396,22 @@
     }
     
     .box_two a .text {
-        padding: 10px;
-        flex: 1;
+        padding: 8px !important;
+        flex: 1 !important;
     }
     
     .box_two a .text h3 {
-        font-size: 16px;
-        margin-bottom: 8px;
+        font-size: 14px !important;
+        margin-bottom: 6px !important;
+        line-height: 1.3 !important;
+    }
+    
+    .box_two a .text p {
+        font-size: 12px !important;
     }
     
     .box_two a .text p span {
-        font-size: 13px;
+        font-size: 12px !important;
     }
     
     .content_info p {
@@ -554,31 +564,38 @@
     }
     
     .box_two {
-        padding: 0;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+        padding: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     .box_two a {
-        padding: 8px;
-        margin: 8px 0;
+        padding: 8px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     .box_two a .img {
-        width: 100px;
-        height: 100px;
+        width: 75px !important;
+        height: 75px !important;
     }
     
     .box_two a .text h3 {
-        font-size: 14px;
-        line-height: 1.3;
+        font-size: 13px !important;
+        line-height: 1.3 !important;
     }
     
     .box_two a .text p {
-        font-size: 12px;
+        font-size: 11px !important;
     }
     
     .box_two a .text p span {
-        font-size: 12px;
-        margin-right: 8px;
+        font-size: 11px !important;
+        margin-right: 8px !important;
     }
     
     .iconfont {
@@ -684,13 +701,24 @@
         line-height: 1.3 !important;
     }
     
+    .box_two {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 6px !important;
+        padding: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    
     .box_two a {
-        margin: 6px 0;
+        margin: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     .box_two a .img {
-        width: 90px;
-        height: 90px;
+        width: 70px !important;
+        height: 70px !important;
         position: relative !important;
         overflow: hidden !important;
         border-radius: 6px !important;
@@ -705,15 +733,15 @@
     }
     
     .box_two a .text {
-        padding: 8px;
+        padding: 6px !important;
     }
     
     .box_two a .text h3 {
-        font-size: 13px;
+        font-size: 12px !important;
     }
     
     .box_two a .text p span {
-        font-size: 11px;
+        font-size: 10px !important;
     }
 }
 
@@ -805,14 +833,25 @@
         line-height: 1.3 !important;
     }
     
+    .box_two {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 6px !important;
+        padding: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    
     .box_two a {
-        padding: 6px;
-        margin: 6px 0;
+        padding: 6px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     .box_two a .img {
-        width: 80px;
-        height: 80px;
+        width: 65px !important;
+        height: 65px !important;
         position: relative !important;
         overflow: hidden !important;
         border-radius: 6px !important;
@@ -827,17 +866,17 @@
     }
     
     .box_two a .text {
-        padding: 6px;
+        padding: 5px !important;
     }
     
     .box_two a .text h3 {
-        font-size: 12px;
-        margin-bottom: 5px;
+        font-size: 11px !important;
+        margin-bottom: 4px !important;
     }
     
     .box_two a .text p span {
-        font-size: 10px;
-        margin-right: 6px;
+        font-size: 9px !important;
+        margin-right: 6px !important;
     }
     
     .nav ul li a,
